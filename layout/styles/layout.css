@@ -406,6 +406,11 @@ tr, #comments li, #comments input[type="submit"], #comments input[type="reset"]{
 tr:nth-child(even), #comments li:nth-child(even){color:inherit; background-color:#F7F7F7;}
 table a, #comments a{background-color:inherit;}
 
+/* Package */
+#package article{flex: 33.33%; height: auto; padding: 30px; margin: 10px; background-color: #ffe3b8; text-align: left; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+#centerContent{text-align: center;}
+#lineDesign{border-top: 1px solid #e69620;}
+
 
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
