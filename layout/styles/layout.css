@@ -146,43 +146,42 @@ File: Layout CSS
 #testimonials article em{display:block; margin-top:-5px; font-size:.8rem; font-style:normal;}
 
 
-.text-card label{
+
+/* Footer
+--------------------------------------------------------------------------------------------------------------- */
+#footer{padding:20px 0;}
+
+#footer .heading{margin-bottom:50px; font-size:1.2rem;}
+
+#footer > div:first-of-type .heading{margin-bottom:0px; text-transform:uppercase; font-size:1.8rem;}
+#footer > div:first-of-type .faico{margin-bottom:30px; }
+
+#footer .text-card label{
     font-size: 15px;
     color: #770115;
 }
-.form-text{
+#footer .form-text{
     width: 49%;
     height: 50px;
     padding: 12px;
     background-color: #fff;
     margin-bottom: 20px;
 }
-.form-text1-1{
+#footer .form-text1-1{
     width: 100%;
     height: 50px;
     padding: 12px;
     background-color: #fff;
     margin-bottom: 20px;
 }
-textarea{
+#footer textarea{
     width: 100%;
-    min-height: 200px;
-    max-height: 400px;
+    min-height: 100px;
     resize: vertical;
     padding: 12px;
     background-color: #fff;
     margin-bottom: 20px;
 }
-
-/* Footer
---------------------------------------------------------------------------------------------------------------- */
-#footer{padding:80px 0;}
-
-#footer .heading{margin-bottom:50px; font-size:1.2rem;}
-
-#footer > div:first-of-type .heading{margin-bottom:20px; text-transform:uppercase; font-size:1.8rem;}
-#footer > div:first-of-type .faico{margin-bottom:30px;}
-
 #footer input, #footer button{border:1px solid;}
 #footer input{display:block; width:100%; padding:8px;}
 #footer button{padding:8px 18px 10px; text-transform:uppercase; font-weight:400; cursor:pointer;}
@@ -192,17 +191,17 @@ textarea{
 #footer .linklist li::before, #footer .linklist li::after{display:table; content:"";}
 #footer .linklist li, #footer .linklist li::after{clear:both;}
 
-#footer .contact{}
+/* #footer .contact{}
 #footer .contact.linklist li, #footer .contact.linklist li:last-child{position:relative; padding-left:40px;}
 #footer .contact li *{margin:0; padding:0; line-height:1.6;}
 #footer .contact li i{display:block; position:absolute; top:0; left:0; width:30px; font-size:16px; text-align:center;}
-
-#footer .latestimg{}
+ */
+/* #footer .latestimg{}
 #footer .latestimg > li{display:inline-block; float:left; width:30%; margin:0 0 5% 5%;}
 #footer .latestimg > li:nth-last-child(-n+3){margin-bottom:0;}/* Removes bottom margin from the last three items - margin is restored in the media queries when items stack */
-#footer .latestimg > li:nth-child(3n+1){margin-left:0; clear:left;}/* Removes the need to add class="first" */
-#footer .latestimg > li img{width:100%;}/* Force the image to resize to take the full space - may have to be changed for tablets, depends on personal preference */
-#footer .latestimg > li a.imgover{display:block;}
+/* #footer .latestimg > li:nth-child(3n+1){margin-left:0; clear:left;}/* Removes the need to add class="first" */
+/* #footer .latestimg > li img{width:100%;}/* Force the image to resize to take the full space - may have to be changed for tablets, depends on personal preference */
+/*  #footer .latestimg > li a.imgover{display:block;} */
 
 
 /* Copyright
