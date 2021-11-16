@@ -62,6 +62,7 @@ File: Layout CSS
 
 #pageintro article{display:block; max-width:55%;}
 #pageintro .heading{margin-bottom:20px; font-size:4rem;}
+#pageintro figure{position: absolute; right:50px; bottom: 200px;} 
 #pageintro p:first-of-type{margin:0 0 20px 0; text-transform:uppercase; font-size:1.6rem; letter-spacing:2px;}
 #pageintro p:last-of-type{font-size:1.2rem;}
 #pageintro footer{margin-top:50px;}
