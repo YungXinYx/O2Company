@@ -58,9 +58,9 @@ File: Layout CSS
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
-#pageintro{padding:180px 0;}
+#pageintro{padding-top: 150px; padding-bottom: 150px;}
 
-#pageintro article{display:block; max-width:55%;}
+#pageintro article{display:block; max-width:100%;}
 #pageintro .heading{margin-bottom:20px; font-size:4rem;}
 #pageintro figure{position: absolute; right:50px; bottom: 200px;} 
 #pageintro p:first-of-type{margin:0 0 20px 0; text-transform:uppercase; font-size:1.6rem; letter-spacing:2px;}
@@ -376,8 +376,8 @@ input:focus, textarea:focus, *:required:focus{border-color:#FFBF00;}
 
 
 /* Page Intro */
-#pageintro{color:#FFFFFF;}
-
+#pageintro{color:#FFFFFF; }
+#introImage img{height: 270px; width: 350px; float: right;}
 
 /* Content Area */
 #stats > li{border-color:#D7D7D7;}
